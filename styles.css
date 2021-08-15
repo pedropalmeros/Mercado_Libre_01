@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: #ffe700;
+}
+
+header nav{
+    max-width: 1100px;
+    margin: 0 auto; 
+    height: 100px;
+    display:flex;
+}
+
+header nav left_container{
+    display:flex;
+    flex: 0 1 20%;
+    text-align: center;
+}
+
+.logo{
+    height: 3rem;
+    flex: 1 1 60;
+}
+.cp{
+    font-size: 0.8rem;
+    text-align: center;
+}
+.cp span{
+    font-size: 1.5rem;
+    display: block;
+}
+
+header nav center_container{
+    display:flex;
+
+}
+
+header nav right_container{
+    display: flex;
+    flex: 1 1 20%;
+
+}
